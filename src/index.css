@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    /* color: rgb(224, 66, 66); */
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    height: 9px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    /* background: linear-gradient(#9966ff, #008CFF); */
+    background-color: transparent;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}

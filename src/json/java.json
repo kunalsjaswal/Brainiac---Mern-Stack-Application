@@ -1,0 +1,568 @@
+[
+   {
+      "heading": "Java Introduction",
+      "content": []
+   },
+   {
+      "heading": "What is Java?",
+      "content": [
+         {
+            "value": "Java is a popular programming language, created in 1995."
+         },
+         {
+            "value": "It is owned by Oracle, and more than 3 billion devices run Java."
+         },
+         {
+            "value": "It is used for:"
+         },
+         {
+            "value": "Mobile applications (specially Android apps)"
+         },
+         {
+            "value": "Desktop applications"
+         },
+         {
+            "value": "Web applications"
+         },
+         {
+            "value": "Web servers and application servers"
+         },
+         {
+            "value": "Games"
+         },
+         {
+            "value": "Database connection"
+         },
+         {
+            "value": "And much, much more!"
+         }
+      ]
+   },
+   {
+      "heading": "Why Use Java?",
+      "content": [
+         {
+            "value": "Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)"
+         },
+         {
+            "value": "It is one of the most popular programming language in the world"
+         },
+         {
+            "value": "It has a large demand in the current job market"
+         },
+         {
+            "value": "It is easy to learn and simple to use"
+         },
+         {
+            "value": "It is open-source and free"
+         },
+         {
+            "value": "It is secure, fast and powerful"
+         },
+         {
+            "value": "It has a huge community support (tens of millions of developers)"
+         },
+         {
+            "value": "Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs"
+         },
+         {
+            "value": "As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa"
+         }
+      ]
+   },
+
+   {
+      "heading": "Java Syntax",
+      "content": [
+         {
+            "value": "In the previous chapter, we created a Java file called Main.java, and we used the following code to print \"Hello World\" to the screen:"
+         },
+         {
+            "image": "photos/java/img1.png"
+         },
+         {
+            "value": "Example explained"
+         },
+         {
+            "value": "Every line of code that runs in Java must be inside a class. In our example, we named the class"
+         },
+         {
+            "value": "Main. A class should always start with an uppercase first letter."
+         },
+         {
+            "value": "Note: Java is case-sensitive: \"MyClass\" and \"myclass\" has different meaning."
+         },
+         {
+            "value": "The name of the java file must match the class name. When saving the file, save it using the class name and add \".java\" to the end of the filename."
+         }
+      ]
+   },
+   {
+      "heading": "The main Method",
+      "content": [
+         {
+            "value": "The main() method is required and you will see it in every Java program:"
+         },
+         {
+            "value": "Any code inside the main() method will be executed. Don't worry about the keywords before and after main.You will get to know them bit by bit while reading this tutorial."
+         },
+         {
+            "value": "For now, just remember that every Java program has a class name which must match the filename, and that every program must contain the main() method."
+         }
+      ]
+   },
+   {
+      "heading": "System.out.println()",
+      "content": [
+         {
+            "value": "Inside the main() method, we can use the println() method to print a line of text to the screen:"
+         },
+         {
+            "image": "photos/java/img2.png"
+         }
+      ]
+   },
+
+   {
+      "heading": "Java Output",
+      "content": [
+         {
+            "value": "You learned from the previous chapter that you can use the println() method to output values or print text in Java:"
+         },
+         {
+            "image": "photos/java/img2.png"
+         },
+         {
+            "value": "You can add as many println() methods as you want. Note that it will add a new line for each method:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/java/img3.png"
+         }
+      ]
+   },
+   {
+      "heading": "Double Quotes",
+      "content": [
+         {
+            "value": "When you are working with text, it must be wrapped inside double quotations marks \"\"."
+         },
+         {
+            "value": "If you forget the double quotes, an error occurs:"
+         },
+         {
+            "image": "photos/java/img4.png"
+         }
+      ]
+   },
+   {
+      "heading": "The Print() Method",
+      "content": [
+         {
+            "value": "There is also a print() method, which is similar to println()."
+         },
+         {
+            "value": "The only difference is that it does not insert a new line at the end of the output:"
+         },
+         {
+            "image": "photos/java/img5.png"
+         }
+      ]
+   },
+   {
+      "heading": "Print Numbers",
+      "content": [
+         {
+            "value": "You can also use the println() method to print numbers."
+         },
+         {
+            "value": "However, unlike text, we don't put numbers inside double quotes:"
+         },
+         {
+            "image": "photos/java/img6.png"
+         },
+         {
+            "value": "You can also perform mathematical calculations inside the println() method:"
+         },
+         {
+            "image": "photos/java/img7.png"
+         },
+         {
+            "image": "photos/java/img8.png"
+         }
+      ]
+   },
+
+   {
+      "heading": "Java Comments",
+      "content": [
+         {
+            "value": "Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code."
+         }
+      ]
+   },
+   {
+      "heading": "Single-line Comments",
+      "content": [
+         {
+            "value": "Single-line comments start with two forward slashes (//)."
+         },
+         {
+            "value": "Any text between // and the end of the line is ignored by Java (will not be executed)."
+         },
+         {
+            "value": "This example uses a single-line comment before a line of code:"
+         },
+         {
+            "image": "photos/java/img9.png"
+         }
+      ]
+   },
+   {
+      "heading": "Java Multi-line Comments",
+      "content": [
+         {
+            "value": "Multi-line comments start with /* and ends with */."
+         },
+         {
+            "value": "Any text between /* and */ will be ignored by Java."
+         },
+         {
+            "value": "This example uses a multi-line comment (a comment block) to explain the code:"
+         },
+         {
+            "image": "photos/java/img10.png"
+         }
+      ]
+   },
+
+   {
+      "heading": "Java Variables",
+      "content": [
+         {
+            "value": "Variables are containers for storing data values."
+         },
+         {
+            "value": "In Java, there are different types of variables, for example:"
+         },
+         {
+            "value": "String - stores text, such as \"Hello\". String values are surrounded by double quotes"
+         },
+         {
+            "value": "int - stores integers (whole numbers), without decimals, such as 123 or -123"
+         },
+         {
+            "value": "float - stores floating point numbers, with decimals, such as 19.99 or -19.99"
+         },
+         {
+            "value": "char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes"
+         },
+         {
+            "value": "boolean - stores values with two states: true or false"
+         }
+      ]
+   },
+   {
+      "heading": "Declaring (Creating) Variables",
+      "content": [
+         {
+            "value": "To create a variable, you must specify the type and assign it a value:"
+         },
+         {
+            "image": "photos/java/img11.png"
+         },
+         {
+            "value": "Where type is one of Java's types (such as int or String), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable."
+         },
+         {
+            "value": "To create a variable that should store text, look at the following example:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": "Create a variable called name of type String and assign it the value \"John\":"
+         },
+         {
+            "image": "photos/java/img12.png"
+         },
+         {
+            "value": "To create a variable that should store a number, look at the following example:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": "Create a variable called myNum of type int and assign it the value 15:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/java/img13.png"
+         },
+         {
+            "value": "You can also declare a variable without assigning the value, and assign the value later:"
+         },
+         {
+            "image": "photos/java/img14.png"
+         },
+         {
+            "value": "Note that if you assign a new value to an existing variable, it will overwrite the previous value:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": "Change the value of myNum from 15 to 20:"
+         },
+         {
+            "image": "photos/java/img15.png"
+         }
+      ]
+   },
+   {
+      "heading": "Final Variables",
+      "content": [
+         {
+            "value": "If you don't want others (or yourself) to overwrite existing values, use the final keyword (this will declare the variable as \"final\" or \"constant\", which means unchangeable and read-only):"
+         },
+         {
+            "image": "photos/java/img16.png"
+         }
+      ]
+   },
+   {
+      "heading": "Other Types",
+      "content": [
+         {
+            "value": "A demonstration of how to declare variables of other types:"
+         },
+         {
+            "image": "photos/java/img17.png"
+         }
+      ]
+   },
+   {
+      "heading": "Display Variables",
+      "content": [
+         {
+            "value": "The println() method is often used to display variables."
+         },
+         {
+            "value": "To combine both text and a variable, use the + character:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/java/img18.png"
+         },
+         {
+            "value": "You can also use the + character to add a variable to another variable:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/java/img19.png"
+         },
+         {
+            "value": "For numeric values, the + character works as a mathematical operator (notice that we use int (integer) variables here):"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/java/img20.png"
+         },
+         {
+            "value": "From the example above, you can expect:"
+         },
+         {
+            "value": "x stores the value 5"
+         },
+         {
+            "value": "y stores the value 6"
+         },
+         {
+            "value": "Then we use the println() method to display the value of x + y, which is 11"
+         }
+      ]
+   },
+
+   {
+      "heading": "Java Identifiers",
+      "content": [
+         {
+            "value": "All Java variables must be identified with unique names."
+         },
+         {
+            "value": "These unique names are called identifiers."
+         },
+         {
+            "value": "Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume)."
+         },
+         {
+            "value": "Note: It is recommended to use descriptive names in order to create understandable and maintainable code:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/java/img21.png"
+         },
+         {
+            "value": "The general rules for naming variables are:"
+         },
+         {
+            "value": "Names can contain letters, digits, underscores, and dollar signs"
+         },
+         {
+            "value": "Names must begin with a letter"
+         },
+         {
+            "value": "Names should start with a lowercase letter and it cannot contain whitespace"
+         },
+         {
+            "value": "Names can also begin with $ and _ (but we will not use it in this tutorial)"
+         },
+         {
+            "value": "Names are case sensitive"
+         },
+         {
+            "value": "Reserved words (like Java keywords, such as int or boolean) cannot be used as names"
+         }
+      ]
+   },
+
+   {
+      "heading": "Java Data Types",
+      "content": [
+         {
+            "value": "As explained in the previous chapter, a variable in Java must be a specified data type:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/java/img22.png"
+         },
+         {
+            "value": "Data types are divided into two groups:"
+         },
+         {
+            "value": "Primitive data types - includes byte, short, int, long, float, double, boolean and char"
+         },
+         {
+            "value": "Non-primitive data types - such as String, Arrays and Classes"
+         }
+      ]
+   },
+   {
+      "heading": "Primitive Data Types",
+      "content": [
+         {
+            "value": "A primitive data type specifies the size and type of variable values, and it has no additional methods."
+         },
+         {
+            "value": "There are eight primitive data types in Java:"
+         },
+         {
+            "value": "byte, short, int, long, float, double, boolean and char"
+         }
+      ]
+   },
+   {
+      "heading": "Non-Primitive Data Types",
+      "content": [
+         {
+            "value": "Non-primitive data types are called reference types because they refer to objects."
+         },
+         {
+            "value": "The main difference between primitive and non-primitive data types are:"
+         },
+         {
+            "value": "Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String)."
+         },
+         {
+            "value": "Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot."
+         },
+         {
+            "value": "A primitive type has always a value, while non-primitive types can be null."
+         },
+         {
+            "value": "A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter."
+         },
+         {
+            "value": "The size of a primitive type depends on the data type, while non-primitive types have all the same size."
+         }
+      ]
+   },
+
+   {
+      "heading": "Java Type Casting",
+      "content": [
+         {
+            "value": "Type casting is when you assign a value of one primitive data type to another type."
+         },
+         {
+            "value": "In Java, there are two types of casting:"
+         },
+         {
+            "value": "1.Widening Casting (automatically) - converting a smaller type to a larger type size"
+         },
+         {
+            "value": "byte -> short -> char -> int -> long -> float -> double"
+         },
+         {
+            "value": "Narrowing Casting (manually) - converting a larger type to a smaller size type"
+         }
+      ]
+   },
+   {
+      "heading": "Widening Casting",
+      "content": [
+         {
+            "value": "Widening casting is done automatically when passing a smaller size type to a larger size type:"
+         },
+         {
+            "image": "photos/java/img23.png"
+         }
+      ]
+   },
+   {
+      "heading": "Narrowing Casting",
+      "content": [
+         {
+            "value": "arrowing casting must be done manually by placing the type in parentheses in front of the value:"
+         },
+         {
+            "image": "photos/java/img24.png"
+         }
+      ]
+   },
+
+   {
+      "heading": "Java Operators",
+      "content": [
+         {
+            "value": "Operators are used to perform operations on variables and values."
+         },
+         {
+            "value": "In the example below, we use the + operator to add together two values:"
+         },
+         {
+            "image": "photos/java/img25.png"
+         },
+         {
+            "value": "Although the + operator is often used to add together two values, like in the example above, it can also be used to add together a variable and a value, or a variable and another variable:"
+         },
+         {
+            "image": "photos/java/img26.png"
+         }
+      ]
+   }
+]

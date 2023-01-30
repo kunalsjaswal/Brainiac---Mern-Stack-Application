@@ -1,0 +1,867 @@
+[
+   {
+      "heading": "HTML Introduction",
+      "content": []
+   },
+   {
+      "heading": "What is HTML?",
+      "content": [
+         {
+            "value": "HTML stands for Hyper Text Markup Language"
+         },
+         {
+            "value": "HTML is the standard markup language for creating Web pages"
+         },
+         {
+            "value": "HTML describes the structure of a Web page"
+         },
+         {
+            "value": "HTML consists of a series of elements"
+         }
+      ]
+   },
+   {
+      "heading": "A Simple HTML Document",
+      "content": [
+         {
+            "image": "photos/html/img1.png"
+         }
+      ]
+   },
+   {
+      "heading": "Explanation",
+      "content": [
+         {
+            "value": "The <!DOCTYPE> html declaration defines that this document is an HTML5 document"
+         },
+         {
+            "value": "The <html> element is the root element of an HTML page"
+         },
+         {
+            "value": "The <head> element contains meta-information about the HTML page"
+         },
+         {
+            "value": "The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)"
+         },
+         {
+            "value": "The <body> element defines the document's body and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc."
+         },
+         {
+            "value": "The <h1> element defines a large heading"
+         },
+         {
+            "value": "The <p> element defines a paragraph"
+         }
+      ]
+   },
+   {
+      "heading": "What is an HTML Element?",
+      "content": [
+         {
+            "value": " An HTML element is defined by a start tag, some content, and an end"
+         },
+         {
+            "value": "<tagname> Content goes here... </tagname>"
+         },
+         {
+            "value": "The HTML element is everything from the start tag to the end tag:"
+         },
+         {
+            "value": "<h1>h1My First Heading</h1>"
+         },
+         {
+            "value": "<p>My first paragraph.</p>"
+         }
+      ]
+   },
+   {
+      "heading": "Web Browsers",
+      "content": [
+         {
+            "value": "The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly."
+         },
+         {
+            "image": "photos/html/img2.png"
+         }
+      ]
+   },
+   {
+      "heading": "HTML Page Structure",
+      "content": [
+         {
+            "value": "Below is a visualization of an HTML page structure:"
+         },
+         {
+            "image": "photos/html/img3.png"
+         }
+      ]
+   },
+
+   {
+      "heading": "HTML Basic Examples",
+      "content": []
+   },
+   {
+      "heading": "HTML Documents",
+      "content": [
+         {
+            "value": "All HTML documents must start with a document type declaration:  <!DOCTYPE html>."
+         },
+         {
+            "value": "The HTML document itself begins with <html> and ends with </html>."
+         },
+         {
+            "value": "The visible part of the HTML document is between <body> and </body>."
+         }
+      ]
+   },
+   {
+      "heading": "Example",
+      "content": [
+         {
+            "image": "photos/html/img4.png"
+         }
+      ]
+   },
+   {
+      "heading": "The <!DOCTYPE> Declaration",
+      "content": [
+         {
+            "value": "The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly."
+         },
+         {
+            "value": " It must only appear once, at the top of the page (before any HTML tags)."
+         },
+         {
+            "value": " The <!DOCTYPE> declaration is not case-sensitive."
+         }
+      ]
+   },
+   {
+      "heading": "HTML Headings",
+      "content": [
+         {
+            "value": "HTML headings are defined with the <h1> to <h6> tags."
+         },
+         {
+            "value": "<h1> defines the most important heading. <h6> defines the least important heading:"
+         }
+      ]
+   },
+   {
+      "heading": "Example",
+      "content": [
+         {
+            "image": "photos/html/img5.png"
+         }
+      ]
+   },
+   {
+      "heading": "HTML Paragraphs",
+      "content": [
+         {
+            "value": "HTML paragraphs are defined with the <p> tag:"
+         }
+      ]
+   },
+   {
+      "heading": "Example",
+      "content": [
+         {
+            "image": "photos/html/img6.png"
+         }
+      ]
+   },
+   {
+      "heading": "HTML Links",
+      "content": [
+         {
+            "value": "HTML links are defined with the <a> tag:"
+         }
+      ]
+   },
+   {
+      "heading": "Example",
+      "content": [
+         {
+            "image": "photos/html/img7.png"
+         },
+         {
+            "value": "Attributes are used to provide additional information about HTML elements."
+         },
+         {
+            "value": "The link's destination is specified in the href attribute."
+         }
+      ]
+   },
+   {
+      "heading": "HTML Images",
+      "content": [
+         {
+            "value": "HTML images are defined with the <img> tag."
+         },
+         {
+            "value": "The source file (src), alternative text (alt), width, and height are provided as attributes:"
+         }
+      ]
+   },
+   {
+      "heading": "Example",
+      "content": [
+         {
+            "image": "photos/html/img14.png"
+         }
+      ]
+   },
+   {
+      "heading": "How to View HTML Source",
+      "content": [
+         {
+            "value": "Have you ever seen a Web page and wondered 'Hey! How did they do that?'"
+         }
+      ]
+   },
+   {
+      "heading": "View HTML Source Code:",
+      "content": [
+         {
+            "value": "Right-click in an HTML page and select 'View Page Source' (in Chrome) or 'View Source' (in Edge), or similar in other browsers."
+         },
+         {
+            "value": " This will open a window containing the HTML source code of the page."
+         }
+      ]
+   },
+   {
+      "heading": "Inspect an HTML Element:",
+      "content": [
+         {
+            "value": "Right-click on an element (or a blank area), and choose 'Inspect' or 'Inspect Element' to see what elements are made up of (you will see both the HTML and the CSS)."
+         },
+         {
+            "value": "You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens."
+         }
+      ]
+   },
+
+   {
+      "heading": "HTML Attributes",
+      "content": [
+         {
+            "value": "HTML attributes provide additional information about HTML elements."
+         }
+      ]
+   },
+   {
+      "heading": "HTML Attributes",
+      "content": [
+         {
+            "value": "All HTML elements can have attributes"
+         },
+         {
+            "value": "Attributes provide additional information about elements"
+         },
+         {
+            "value": "Attributes are always specified in the start tag"
+         },
+         {
+            "value": "Attributes usually come in name/value pairs like: name=\"value\""
+         }
+      ]
+   },
+   {
+      "heading": "The href Attribute",
+      "content": [
+         {
+            "value": "The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": "<a href=\"https://www.w3schools.com\">Visit W3Schools</a>"
+         }
+      ]
+   },
+   {
+      "heading": "The src Attribute",
+      "content": [
+         {
+            "value": "The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": "<img src=\"img1.jpg\">"
+         },
+         {
+            "value": "There are two ways to specify the URL in the src attribute:"
+         },
+         {
+            "value": "1. Absolute URL - Links to an external image that is hosted on another website. Example: src=\"https://www.w3schools.com/images/img_girl.jpg\"."
+         },
+         {
+            "value": "Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed."
+         },
+         {
+            "value": "2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src=\"img1.jpg\". If the URL begins with a slash, it will be relative to the domain. Example: src=\"images/img_girl.jpg\"."
+         },
+         {
+            "value": "Tip: It is almost always best to use relative URLs. They will not break if you change domain."
+         }
+      ]
+   },
+   {
+      "heading": "The width and height Attributes",
+      "content": [
+         {
+            "value": "The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": " <img src=\"img1.jpg\" alt=\"html document\">"
+         }
+      ]
+   },
+   {
+      "heading": "The style Attribute",
+      "content": [
+         {
+            "value": "The style attribute is used to add styles to an element, such as color, font, size, and more."
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": "<p style=\"color:red;\">This is a red paragraph.</p>"
+         }
+      ]
+   },
+   {
+      "heading": "The lang Attribute",
+      "content": [
+         {
+            "value": "You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers."
+         },
+         {
+            "value": "Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country."
+         }
+      ]
+   },
+   {
+      "heading": "The title Attribute",
+      "content": [
+         {
+            "value": "The title attribute defines some extra information about an element."
+         },
+         {
+            "value": "The value of the title attribute will be displayed as a tooltip when you mouse over the element:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": "<p title=\"I'm a tooltip\">This is a paragraph.</p>"
+         }
+      ]
+   },
+   {
+      "heading": "Chapter Summary",
+      "content": [
+         {
+            "value": "All HTML elements can have attributes"
+         },
+         {
+            "value": "The href attribute of <a> specifies the URL of the page the link goes to"
+         },
+         {
+            "value": "The src attribute of <img> specifies the path to the image to be displayed"
+         },
+         {
+            "value": "The width and height attributes of <img> provide size information for images"
+         },
+         {
+            "value": "The alt attribute of <img> provides an alternate text for an image"
+         },
+         {
+            "value": "The style attribute is used to add styles to an element, such as color, font, size, and more"
+         },
+         {
+            "value": "The lang attribute of the <html> tag declares the language of the Web page"
+         },
+         {
+            "value": "The title attribute defines some extra information about an element"
+         }
+      ]
+   },
+
+   {
+      "heading": "HTML Styles",
+      "content": [
+         {
+            "value": " The HTML style attribute is used to add styles to an element, such as color, font, size, and more."
+         }
+      ]
+   },
+   {
+      "heading": "The HTML Style Attribute",
+      "content": [
+         {
+            "value": "Setting the style of an HTML element, can be done with the style attribute."
+         },
+         {
+            "value": " The HTML style attribute has the following syntax:"
+         },
+         {
+            "value": "<tagname style=\"property:value;\"></tagname>"
+         },
+         {
+            "value": "The property is a CSS property. The value is a CSS value."
+         }
+      ]
+   },
+   {
+      "heading": "Background Color",
+      "content": [
+         {
+            "value": "The CSS background-color property defines the background color for an HTML element."
+         },
+         {
+            "value": "Examples"
+         },
+         {
+            "value": "1.Set the background color for a page to powderblue:"
+         },
+         {
+            "image": "photos/html/img8.png"
+         },
+         {
+            "value": " 2.Set background color for two different elements:"
+         },
+         {
+            "image": "photos/html/img9.png"
+         }
+      ]
+   },
+   {
+      "heading": "Text Color",
+      "content": [
+         {
+            "value": "he CSS color property defines the text color for an HTML element:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img10.png"
+         }
+      ]
+   },
+   {
+      "heading": "Fonts",
+      "content": [
+         {
+            "value": "The CSS font-family property defines the font to be used for an HTML element:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img11.png"
+         }
+      ]
+   },
+   {
+      "heading": "Text Size",
+      "content": [
+         {
+            "value": "The CSS font-size property defines the text size for an HTML element:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img12.png"
+         }
+      ]
+   },
+   {
+      "heading": "Text Alignment",
+      "content": [
+         {
+            "value": "The CSS text-align property defines the horizontal text alignment for an HTML element:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img13.png"
+         }
+      ]
+   },
+   {
+      "heading": "Chapter Summary",
+      "content": [
+         {
+            "value": "Use the style attribute for styling HTML elements"
+         },
+         {
+            "value": "Use background-color for background color"
+         },
+         {
+            "value": "Use color for text colors"
+         },
+         {
+            "value": "Use font-family for text fonts"
+         },
+         {
+            "value": "Use font-size for text sizes"
+         },
+         {
+            "value": "Use text-align for text alignment"
+         }
+      ]
+   },
+
+   {
+      "heading": "HTML Block and Inline Elements",
+      "content": [
+         {
+            "value": "Every HTML element has a default display value, depending on what type of element it is."
+         },
+         {
+            "value": "There are two display values: block and inline."
+         }
+      ]
+   },
+   {
+      "heading": "Block-level Elements",
+      "content": [
+         {
+            "value": "A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element."
+         },
+         {
+            "value": "A block-level element always takes up the full width available (stretches out to the left and right as far as it can)."
+         },
+         {
+            "value": "Two commonly used block elements are: <p> and <div>."
+         },
+         {
+            "value": "The <p> element defines a paragraph in an HTML document."
+         },
+         {
+            "value": "The <div> element defines a division or a section in an HTML document.  "
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img15.png"
+         },
+         {
+            "value": "Here are the block-level elements in HTML:"
+         },
+         {
+            "image": "photos/html/img16.png"
+         }
+      ]
+   },
+   {
+      "heading": "Inline Elements",
+      "content": [
+         {
+            "value": "An inline element does not start on a new line."
+         },
+         {
+            "value": "An inline element only takes up as much width as necessary."
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img17.png"
+         },
+         {
+            "value": "Here are the inline elements in HTML:"
+         },
+         {
+            "image": "photos/html/img18.png"
+         }
+      ]
+   },
+   {
+      "heading": "The <div> Element",
+      "content": [
+         {
+            "value": "The <div> element is often used as a container for other HTML elements."
+         },
+         {
+            "value": "The <div> element has no required attributes, but style, class and id are common."
+         },
+         {
+            "value": "When used together with CSS, the <div> element can be used to style blocks of content:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img19.png"
+         }
+      ]
+   },
+   {
+      "heading": "The <span> Element",
+      "content": [
+         {
+            "value": "The <span> element is an inline container used to mark up a part of a text, or a part of a document."
+         },
+         {
+            "value": "The <span> element has no required attributes, but style, class and id are common."
+         },
+         {
+            "value": "When used together with CSS, the <span> element can be used to style parts of the text:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img20.png"
+         }
+      ]
+   },
+   {
+      "heading": "Chapter Summary",
+      "content": [
+         {
+            "value": "There are two display values: block and inline"
+         },
+         {
+            "value": "A block-level element always starts on a new line and takes up the full width available"
+         },
+         {
+            "value": "An inline element does not start on a new line and it only takes up as much width as necessary"
+         },
+         {
+            "value": "The <div> element is a block-level and is often used as a container for other HTML elements"
+         },
+         {
+            "value": "The <span> element is an inline container used to mark up a part of a text, or a part of a document"
+         }
+      ]
+   },
+
+   {
+      "heading": "HTML class Attribute",
+      "content": [
+         {
+            "value": "The HTML class attribute is used to specify a class for an HTML element."
+         },
+         {
+            "value": " Multiple HTML elements can share the same class."
+         }
+      ]
+   },
+   {
+      "heading": "Using The class Attribute",
+      "content": [
+         {
+            "value": "The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name."
+         },
+         {
+            "value": "Multiple HTML elements can share the same class."
+         }
+      ]
+   },
+   {
+      "heading": "Using The class Attribute",
+      "content": [
+         {
+            "value": "The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name."
+         },
+         {
+            "value": "In the following example we have three <div> elements with a class attribute with the value of \"city\". All of the three <div> elements will be styled equally according to the .city style definition in the head section:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img21.png"
+         },
+         {
+            "value": "In the following example we have two <span> elements with a class attribute with the value of \"note\". Both <span> elements will be styled equally according to the .note style definition in the head section:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img22.png"
+         }
+      ]
+   },
+   {
+      "heading": "The Syntax For Class",
+      "content": [
+         {
+            "value": "To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "value": "Create a class named \"city\":"
+         },
+         {
+            "image": "photos/html/img23.png"
+         }
+      ]
+   },
+   {
+      "heading": "Multiple Classes",
+      "content": [
+         {
+            "value": "HTML elements can belong to more than one class."
+         },
+         {
+            "value": "To define multiple classes, separate the class names with a space, e.g. <div class=\"city main\">. The element will be styled according to all the classes specified."
+         },
+         {
+            "value": "In the following example, the first <h2> element belongs to both the city class and also to the main class, and will get the CSS styles from both of the classes: "
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img24.png"
+         }
+      ]
+   },
+   {
+      "heading": "Different Elements Can Share Same Class",
+      "content": [
+         {
+            "value": "Different HTML elements can point to the same class name."
+         },
+         {
+            "value": "In the following example, both <h2> and <p> point to the \"city\" class and will share the same style:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img25.png"
+         }
+      ]
+   },
+   {
+      "heading": "Chapter Summary",
+      "content": [
+         {
+            "value": "The HTML class attribute specifies one or more class names for an element"
+         },
+         {
+            "value": "Classes are used by CSS and JavaScript to select and access specific elements"
+         },
+         {
+            "value": "The class attribute can be used on any HTML element"
+         },
+         {
+            "value": "The class name is case sensitive"
+         },
+         {
+            "value": "Different HTML elements can point to the same class name"
+         },
+         {
+            "value": "JavaScript can access elements with a specific class name with the getElementsByClassName() method"
+         }
+      ]
+   },
+
+   {
+      "heading": "HTML id Attribute",
+      "content": [
+         {
+            "value": "The HTML id attribute is used to specify a unique id for an HTML element."
+         },
+         {
+            "value": "You cannot have more than one element with the same id in an HTML document."
+         }
+      ]
+   },
+   {
+      "heading": "Using The id Attribute",
+      "content": [
+         {
+            "value": "The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document."
+         },
+         {
+            "value": "The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id."
+         },
+         {
+            "value": "The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}."
+         },
+         {
+            "value": "In the following example we have an <h1> element that points to the id name \"myHeader\". This <h1> element will be styled according to the #myHeader style definition in the head section:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img26.png"
+         }
+      ]
+   },
+   {
+      "heading": "Difference Between Class and ID",
+      "content": [
+         {
+            "value": "A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:"
+         },
+         {
+            "value": "Example"
+         },
+         {
+            "image": "photos/html/img27.png"
+         }
+      ]
+   },
+   {
+      "heading": "HTML Bookmarks with ID and Links",
+      "content": [
+         {
+            "value": "HTML bookmarks are used to allow readers to jump to specific parts of a webpage."
+         },
+         {
+            "value": "Bookmarks can be useful if your page is very long."
+         },
+         {
+            "value": "To use a bookmark, you must first create it, and then add a link to it."
+         },
+         {
+            "value": "Then, when the link is clicked, the page will scroll to the location with the bookmark."
+         }
+      ]
+   },
+   {
+      "heading": "Chapter Summary",
+      "content": [
+         {
+            "value": "The id attribute is used to specify a unique id for an HTML element"
+         },
+         {
+            "value": "The value of the id attribute must be unique within the HTML document"
+         },
+         {
+            "value": "The id attribute is used by CSS and JavaScript to style/select a specific element"
+         },
+         {
+            "value": "The value of the id attribute is case sensitive"
+         },
+         {
+            "value": "The id attribute is also used to create HTML bookmarks"
+         }
+      ]
+   }
+]

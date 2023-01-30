@@ -1,0 +1,1141 @@
+[ 
+    {
+        "heading":"CSS Introduction",
+        "content":[
+            {
+                "value":"CSS is the language we use to style a Web page."
+            }
+        ]  
+    },
+    {
+        "heading":"What is CSS?",
+        "content":[
+            {
+                "value":"CSS stands for Cascading Style Sheets"
+            },
+            {
+                "value":"CSS describes how HTML elements are to be displayed on screen, paper, or in other media"
+            },
+            {
+                "value":"CSS saves a lot of work. It can control the layout of multiple web pages all at once"
+            },
+            {
+                "value":"External stylesheets are stored in CSS files"
+            }
+        ]
+    },
+    {
+        "heading":"Why Use CSS?",
+        "content":[
+            {
+                "value":"CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img1.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS Solved a Big Problem",
+        "content":[
+            {
+                "value":"HTML was NEVER intended to contain tags for formatting a web page!"
+            },
+            {
+                "value":"HTML was created to describe the content of a web page, like:"
+            },
+            {
+                "value":"<h1>This is a heading</h1>"
+            },
+            {
+                "value":"<p>This is a paragraph.</p>"
+            },
+            {
+                "value":"When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process."
+            },
+            {
+                "value":"To solve this problem, the World Wide Web Consortium (W3C) created CSS."
+            },
+            {
+                "value":"CSS removed the style formatting from the HTML page!"
+            }
+        ]
+    },
+    {
+        "heading":"CSS Saves a Lot of Work!",
+        "content":[
+            {
+                "value":"The style definitions are normally saved in external .css files."
+            },
+            {
+                "value":"With an external stylesheet file, you can change the look of an entire website by changing just one file!"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "heading":"CSS Syntax",
+        "content":[
+            {
+                "value":"A CSS rule consists of a selector and a declaration block."
+            }
+        ]
+    },
+    {
+        "heading":"CSS Syntax",
+        "content":[
+            {
+                "image":"photos/css/img2.png"
+            },
+            {
+                "value":"The selector points to the HTML element you want to style."
+            },
+            {
+                "value":"The declaration block contains one or more declarations separated by semicolons."
+            },
+            {
+                "value":"Each declaration includes a CSS property name and a value, separated by a colon."
+            },
+            {
+                "value":"Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"In this example all <p> elements will be center-aligned, with a red text color:"
+            },
+            {
+                "image":"photos/css/img3.png"
+            },
+            {
+                "value":"Example Explanation"
+            },
+            {
+                "value":"p is a selector in CSS (it points to the HTML element you want to style: <p>)."
+            },
+            {
+                "value":"color is a property, and red is the property value"
+            },
+            {
+                "value":"text-align is a property, and center is the property value"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "heading":"CSS Selectors",
+        "content":[
+            {
+                "value":"A CSS selector selects the HTML element(s) you want to style."
+            }
+        ]
+    },
+    {
+        "heading":"CSS Selectors",
+        "content":[
+            {
+                "value":"CSS selectors are used to \"find\" (or select) the HTML elements you want to style."
+            },
+            {
+                "value":"We can divide CSS selectors into five categories:"
+            },
+            {
+                "value":"Simple selectors (select elements based on name, id, class)"
+            },
+            {
+                "value":"Combinator selectors (select elements based on a specific relationship between them)"
+            },
+            {
+                "value":"Pseudo-class selectors (select elements based on a certain state)"
+            },
+            {
+                "value":"Pseudo-elements selectors (select and style a part of an element)"
+            },
+            {
+                "value":"Attribute selectors (select elements based on an attribute or attribute value)"
+            }
+        ]
+    },
+    {
+        "heading":"The CSS element Selector",
+        "content":[
+            {
+                "value":"The element selector selects HTML elements based on the element name."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Here, all <p> elements on the page will be center-aligned, with a red text color: "
+            },
+            {
+                "image":"photos/css/img4.png"
+            }
+        ]
+    },
+    {
+        "heading":"The CSS id Selector",
+        "content":[
+            {
+                "value":"The id selector uses the id attribute of an HTML element to select a specific element."
+            },
+            {
+                "value":"The id of an element is unique within a page, so the id selector is used to select one unique element!"
+            },
+            {
+                "value":"To select an element with a specific id, write a hash (#) character, followed by the id of the element."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"The CSS rule below will be applied to the HTML element with id=\"para1\": "
+            },
+            {
+                "image":"photos/css/img5.png"
+            }
+        ]
+    },
+    {
+        "heading":"The CSS class Selector",
+        "content":[
+            {
+                "value":"The class selector selects HTML elements with a specific class attribute."
+            },
+            {
+                "value":"o select elements with a specific class, write a period (.) character, followed by the class name."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"In this example all HTML elements with class=\"center\" will be red and center-aligned: "
+            },
+            {
+                "image":"photos/css/img6.png"
+            },
+            {
+                "value":"You can also specify that only specific HTML elements should be affected by a class."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"In this example only <p> elements with class=\"center\" will be red and center-aligned: "
+            },
+            {
+                "image":"photos/css/img7.png"
+            },
+            {
+                "value":"HTML elements can also refer to more than one class."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"In this example the <p> element will be styled according to class=\"center\" and to class=\"large\": "
+            },
+            {
+                "image":"photos/css/img8.png"
+            }
+        ]
+    },
+    {
+        "heading":"The CSS Universal Selector",
+        "content":[
+            {
+                "value":"The universal selector (*) selects all HTML elements on the page."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"The CSS rule below will affect every HTML element on the page: "
+            },
+            {
+                "image":"photos/css/img9.png"
+            }
+        ]
+    },
+    {
+        "heading":"The CSS Grouping Selector",
+        "content":[
+            {
+                "value":"The grouping selector selects all the HTML elements with the same style definitions."
+            },
+            {
+                "value":"Look at the following CSS code (the h1, h2, and p elements have the same style definitions):"
+            },
+            {
+                "image":"photos/css/img10.png"
+            },
+            {
+                "value":"It will be better to group the selectors, to minimize the code."
+            },
+            {
+                "value":"To group selectors, separate each selector with a comma."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"In this example we have grouped the selectors from the code above:"
+            },
+            {
+                "image":"photos/css/img11.png"
+            }
+        ]
+    },
+    
+    
+    
+    
+    
+    
+    
+    {
+        "heading":"How To Add CSS",
+        "content":[
+            {
+                "value":"When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet."
+            }
+        ]
+    },
+    {
+        "heading":"Three Ways to Insert CSS",
+        "content":[
+            {
+                "value":"There are three ways of inserting a style sheet:."
+            },
+            {
+                "value":"External CSS"
+            },
+            {
+                "value":"Internal CSS"
+            },
+            {
+                "value":"Inline CSS"
+            }
+        ]
+    },
+    {
+        "heading":"External CSS",
+        "content":[
+            {
+                "value":"With an external style sheet, you can change the look of an entire website by changing just one file!"
+            },
+            {
+                "value":"Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"External styles are defined within the <link> element, inside the <head> section of an HTML page:"
+            },
+            {
+                "image":"photos/css/img12.png"
+            },
+            {
+                "value":"An external style sheet can be written in any text editor, and must be saved with a .css extension."
+            },
+            {
+                "value":"The external .css file should not contain any HTML tags."
+            },
+            {
+                "value":"Here is how the \"mystyle.css\" file looks:"
+            },
+            {
+                "image":"photos/css/img13.png"
+            }
+        ]
+    },
+    {
+        "heading":"Internal CSS",
+        "content":[
+            {
+                "value":"An internal style sheet may be used if one single HTML page has a unique style."
+            },
+            {
+                "value":"The internal style is defined inside the <style> element, inside the head section."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Internal styles are defined within the <style> element, inside the <head> section of an HTML page:"
+            },
+            {
+                "image":"photos/css/img14.png"
+            }
+        ]
+    },
+    {
+        "heading":"Inline CSS",
+        "content":[
+            {
+                "value":"An inline style may be used to apply a unique style for a single element."
+            },
+            {
+                "value":"To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Inline styles are defined within the \"style\" attribute of the relevant element:"
+            },
+            {
+                "image":"photos/css/img15.png"
+            }
+        ]
+    },
+    {
+        "heading":"Cascading Order",
+        "content":[
+            {
+                "value":"What style will be used when there is more than one style specified for an HTML element?"
+            },
+            {
+                "value":"All the styles in a page will \"cascade\" into a new \"virtual\" style sheet by the following rules, where number one has the highest priority:"
+            },
+            {
+                "value":"1.Inline style (inside an HTML element)"
+            },
+            {
+                "value":"External and internal style sheets (in the head section)"
+            },
+            {
+                "value":"Browser default"
+            },
+            {
+                "value":"So, an inline style has the highest priority, and will override external and internal styles and browser defaults."
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "heading":"CSS Comments",
+        "content":[
+            {
+                "value":"CSS comments are not displayed in the browser, but they can help document your source code."
+            }
+        ]
+    },
+    {
+        "heading":"CSS Comments",
+        "content":[
+            {
+                "value":"Comments are used to explain the code, and may help when you edit the source code at a later date."
+            },
+            {
+                "value":"Comments are ignored by browsers."
+            },
+            {
+                "value":"A CSS comment is placed inside the <style> element, and starts with /* and ends with */:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img16.png"
+            },
+            {
+                "value":"Comments can also span multiple lines: "
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img17.png"
+            }
+        ]
+    },
+    {
+        "heading":"HTML and CSS Comments",
+        "content":[
+            {
+                "value":"From the HTML tutorial, you learned that you can add comments to your HTML source by using the <!--...--> syntax."
+            },
+            {
+                "value":"In the following example, we use a combination of HTML and CSS comments:"
+            },
+            {
+                "image":"photos/css/img18.png"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "heading":"CSS Colors",
+        "content":[
+            {
+                "value":"Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values."
+            }
+        ]
+    },
+    {
+        "heading":"CSS Color Names",
+        "content":[
+            {
+                "value":"In CSS, a color can be specified by using a predefined color name:"
+            },
+            {
+                "image":"photos/css/img19.png"
+            },
+            {
+                "value":"CSS/HTML support 140 standard color names."
+            }
+        ]
+    },
+    {
+        "heading":"CSS Background Color",
+        "content":[
+            {
+                "value":"You can set the background color for HTML elements:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img20.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS Text Color",
+        "content":[
+            {
+                "value":"You can set the color of text:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img21.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS Border Color",
+        "content":[
+            {
+                "value":"You can set the color of borders:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img22.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS Color Values",
+        "content":[
+            {
+                "value":"In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:"
+            },
+            {
+                "image":"photos/css/img23.png"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "heading":"CSS Backgrounds",
+        "content":[
+            {
+                "value":"The CSS background properties are used to add background effects for elements."
+            },
+            {
+                "value":"The CSS background properties are used to add background effects for elements."
+            },
+            {
+                "value":"1.background-color"
+            },
+            {
+                "value":"2.background-image"
+            },
+            {
+                "value":"3.background-repeat"
+            },
+            {
+                "value":"4.background-position"
+            }
+        ]
+    },
+    {
+        "heading":"CSS background-color",
+        "content":[
+            {
+                "value":"CSS background-color"
+            },
+            {
+                "value":"The background-color property specifies the background color of an element."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"The background color of a page is set like this:"
+            },
+            {
+                "image":"photos/css/img24.png"
+            },
+            {
+                "value":"With CSS, a color is most often specified by:"
+            },
+            {
+                "value":"a valid color name - like \"red\""
+            },
+            {
+                "value":"a HEX value - like \"#ff0000\"v"
+            },
+            {
+                "value":"an RGB value - like \"rgb(255,0,0)\""
+            }
+        ]
+    },
+    {
+        "heading":"Other Elements",
+        "content":[
+            {
+                "value":"You can set the background color for any HTML elements:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Here, the <h1>, <p>, and <div> elements will have different background colors: "
+            },
+            {
+                "image":"photos/css/img25.png"
+            }
+        ]
+    },
+    {
+        "heading":"Opacity / Transparency",
+        "content":[
+            {
+                "value":"The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:"
+            },
+            {
+                "image":"photos/css/img26.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS background-image",
+        "content":[
+            {
+                "value":"The background-image property specifies an image to use as the background of an element."
+            },
+            {
+                "value":"By default, the image is repeated so it covers the entire element."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Set the background image for a page: "
+            },
+            {
+                "image":"photos/css/img27.png"
+            },
+            {
+                "value":"The background image can also be set for specific elements, like the <p> element:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img28.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS background-repeat",
+        "content":[
+            {
+                "value":"By default, the background-image property repeats an image both horizontally and vertically."
+            },
+            {
+                "value":"Some images should be repeated only horizontally or vertically, or they will look strange, like this:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img29.png"
+            },
+            {
+                "value":"If the image above is repeated only horizontally (background-repeat: repeat-x;), the background will look better:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img30.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS background-repeat: no-repeat",
+        "content":[
+            {
+                "value":"Showing the background image only once is also specified by the background-repeat property:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img31.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS background-position",
+        "content":[
+            {
+                "value":"The background-position property is used to specify the position of the background image."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img32.png"
+            }
+        ]
+    },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "heading":"CSS Borders",
+        "content":[
+            {
+                "value":"The CSS border properties allow you to specify the style, width, and color of an element's border."
+            }
+        ]
+    },
+    {
+        "heading":"CSS Border Style",
+        "content":[
+            {
+                "value":"The border-style property specifies what kind of border to display."
+            },
+            {
+                "value":"The following values are allowed:"
+            },
+            {
+                "value":"dotted - Defines a dotted border"
+            },
+            {
+                "value":"dashed - Defines a dashed border"
+            },
+            {
+                "value":"solid - Defines a solid border"
+            },
+            {
+                "value":"double - Defines a double border"
+            },
+            {
+                "value":"groove - Defines a 3D grooved border. The effect depends on the border-color value"
+            },
+            {
+                "value":"ridge - Defines a 3D ridged border. The effect depends on the border-color value"
+            },
+            {
+                "value":"inset - Defines a 3D inset border. The effect depends on the border-color value"
+            },
+            {
+                "value":"outset - Defines a 3D outset border. The effect depends on the border-color value"
+            },
+            {
+                "value":"none - Defines no border"
+            },
+            {
+                "value":"hidden - Defines a hidden border"
+            },
+            {
+                "value":"The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border)."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Demonstration of the different border styles:"
+            },
+            {
+                "image":"photos/css/img33.png"
+            }
+            
+        ]
+    },
+    {
+        "heading":"CSS Border Width",
+        "content":[
+            {
+                "value":"The border-width property specifies the width of the four borders."
+            },
+            {
+                "value":"The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Demonstration of the different border widths:"
+            },
+            {
+                "image":"photos/css/img34.png"
+            }
+        ]
+    },
+    {
+        "heading":"Specific Side Widths",
+        "content":[
+            {
+                "value":"The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):"
+            },
+            {
+                "image":"photos/css/img35.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS Border Color",
+        "content":[
+            {
+                "value":"The border-color property is used to set the color of the four borders."
+            },
+            {
+                "value":"The color can be set by:"
+            },
+            {
+                "value":"name - specify a color name, like \"red\""
+            },
+            {
+                "value":"HEX - specify a HEX value, like \"#ff0000\""
+            },
+            {
+                "value":"RGB - specify a RGB value, like \"rgb(255,0,0)\""
+            },
+            {
+                "value":"HSL - specify a HSL value, like \"hsl(0, 100%, 50%)\""
+            },
+            {
+                "value":"transparent"
+            },
+            {
+                "value":"Note: If border-color is not set, it inherits the color of the element."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Demonstration of the different border colors:"
+            },
+            {
+                "image":"photos/css/img36.png"
+            }
+        ]
+    },
+    {
+        "heading":"Specific Side Colors",
+        "content":[
+            {
+                "value":"The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border). "   
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img37.png"
+            }
+        ]
+    },
+    {
+        "heading":"CSS Border - Individual Sides",
+        "content":[
+            {
+                "value":"From the examples on the previous pages, you have seen that it is possible to specify a different border for each side."
+            },
+            {
+                "value":"In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img38.png"
+            },
+            {
+                "value":"The example above gives the same result as this:"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img39.png"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "image":"photos/css/img40.png"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "heading":"CSS Margins",
+        "content":[
+            {
+                "value":"Margins are used to create space around elements, outside of any defined borders."
+            },
+            {
+                "value":"The CSS margin properties are used to create space around elements, outside of any defined borders."
+            },
+            {
+                "value":"With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left)."
+            }
+        ]
+    },
+    {
+        "heading":"Margin - Individual Sides",
+        "content":[
+            {
+                "value":"CSS has properties for specifying the margin for each side of an element:"
+            },
+            {
+                "value":"margin-top"
+            },
+            {
+                "value":"margin-right"
+            },
+            {
+                "value":"margin-bottom" 
+            },
+            {
+                "value":"margin-left"
+            },
+            {
+                "value":"All the margin properties can have the following values:"
+            },
+            {
+                "value":"auto - the browser calculates the margin"
+            },
+            {
+                "value":"length - specifies a margin in px, pt, cm, etc."
+            },
+            {
+                "value":"% - specifies a margin in % of the width of the containing element"
+            },
+            {
+                "value":"inherit - specifies that the margin should be inherited from the parent element"
+            },
+            {
+                "image":"photos/css/img41.png"
+            }
+        ]
+    },
+    {
+        "heading":"The auto Value",
+        "content":[
+            {
+                "value":"You can set the margin property to auto to horizontally center the element within its container."
+            },
+            {
+                "value":"The element will then take up the specified width, and the remaining space will be split equally between the left and right margins."
+            }
+            ,
+            {
+                "image":"photos/css/img42.png"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "heading":"CSS Padding",
+        "content":[
+            {
+                "value":"Padding is used to create space around an element's content, inside of any defined borders."
+            },
+            {
+                "value":"The CSS padding properties are used to generate space around an element's content, inside of any defined borders."
+            },
+            {
+                "value":"With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left)."
+            }
+        ]
+    },
+    {
+        "heading":"Padding - Individual Sides",
+        "content":[
+            {
+                "value":"CSS has properties for specifying the padding for each side of an element:"
+            },
+            {
+                "value":"padding-top"
+            },
+            {
+                "value":"padding-right"
+            },
+            {
+                "value":"padding-bottom"
+            },
+            {
+                "value":"padding-left"
+            },
+            {
+                "value":"All the padding properties can have the following values:"
+            },
+            {
+                "value":"length - specifies a padding in px, pt, cm, etc."
+            },
+            {
+                "value":"% - specifies a padding in % of the width of the containing element"
+            },
+            {
+                "value":"inherit - specifies that the padding should be inherited from the parent element"
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Set different padding for all four sides of a <div> element:  "
+            },
+            {
+                "image":"photos/css/img43.png"
+            }
+        ]
+    },
+    {
+        "heading":"Padding and Element Width",
+        "content":[
+            {
+                "value":"The CSS width property specifies the width of the element's content area. The content area is the portion inside the padding, border, and margin of an element (the box model)."
+            },
+            {
+                "value":"So, if an element has a specified width, the padding added to that element will be added to the total width of the element. This is often an undesirable result."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Here, the <div> element is given a width of 300px. However, the actual width of the <div> element will be 350px (300px + 25px of left padding + 25px of right padding):"
+            },
+            {
+                "image":"photos/css/img44.png"
+            },
+            {
+                "value":"To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease."
+            },
+            {
+                "value":"Example"
+            },
+            {
+                "value":"Use the box-sizing property to keep the width at 300px, no matter the amount of padding:"
+            },
+            {
+                "image":"photos/css/img45.png"
+            }
+        ]
+    }
+
+
+
+
+]
